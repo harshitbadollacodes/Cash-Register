@@ -13,8 +13,8 @@
 
     function message(m) {
         let p = document.createElement('p');      
-        return p.textContent = m;
-        
+        p.textContent = m;
+        return p;
     }
     
     document.querySelector(".btn").addEventListener("click", () => {
